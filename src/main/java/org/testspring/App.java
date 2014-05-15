@@ -29,6 +29,7 @@ public class App
 
         Contact contact;
 
+        
         contact = contactDao.findById(1L);
         System.out.println("");
         System.out.println("Contact with id 1:" + contact);
