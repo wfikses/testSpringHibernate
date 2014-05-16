@@ -34,4 +34,8 @@ public class Hobby {
     public void setContacts(Set<Contact> contacts) {
         this.contacts = contacts;
     }
+
+    public String toString() {
+        return "Hobby :" + getHobbyId();
+    }
 }

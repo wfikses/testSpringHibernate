@@ -73,4 +73,9 @@ public class ContactTelDetail implements Serializable{
     public void setTelNumber(String telNumber) {
         this.telNumber = telNumber;
     }
+
+    public String toString() {
+        return "Contact Tel Detail - Id: " + id + ", Contact id: " + getContact().getId()
+                + ", Type: " + telType + ", Number: " + telNumber;
+    }
 }
